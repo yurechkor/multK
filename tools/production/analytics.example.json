@@ -1,0 +1,21 @@
+{
+  "hypothesis": "One concrete editorial hypothesis, not a promised result",
+  "published_at": null,
+  "observed_at": null,
+  "genre": null,
+  "duration_seconds": null,
+  "audience": null,
+  "distribution": null,
+  "metrics": {
+    "reach": null,
+    "views": null,
+    "average_watch_seconds": null,
+    "retention": null,
+    "shares": null,
+    "saves": null,
+    "follows": null
+  },
+  "source": null,
+  "comparison": "Compare similar publication ages, duration and genre; missing data stays null",
+  "interpretation": null
+}

@@ -1,0 +1,7 @@
+{
+  "kind": "tts",
+  "model_id": "eleven_multilingual_v2",
+  "voice_id": "3EuKHIEZbSzrHGNmdYsx",
+  "generations_count": 1,
+  "prompt": "Замените этот пример окончательным текстом речи."
+}

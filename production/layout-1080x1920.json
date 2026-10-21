@@ -1,0 +1,46 @@
+{
+  "id": "full-frame-centered-1080x1920-v2",
+  "canvas": {
+    "width": 1080,
+    "height": 1920
+  },
+  "basis": "User decision 2026-10-21: full-frame story, true center, no platform safe-zone reservation or mandatory header/stage. Applies to new episodes only.",
+  "composition": {
+    "center_x": 540,
+    "center_y": 960,
+    "full_bleed": true,
+    "platform_reservation": false,
+    "mandatory_header": false,
+    "clip_action_to_stage": false
+  },
+  "action_stage": {
+    "x": 0,
+    "y": 0,
+    "width": 1080,
+    "height": 1920
+  },
+  "progress": {
+    "optional": true,
+    "x": 80,
+    "y": 100,
+    "width": 920,
+    "height": 5
+  },
+  "captions": {
+    "placement_policy": "starting suggestion; choose stable lower position per episode, symmetric about canvas center",
+    "x": 80,
+    "y": 1540,
+    "width": 920,
+    "height": 180,
+    "center_x": 540,
+    "single_line_baseline": 1642,
+    "two_line_baselines": [
+      1612,
+      1674
+    ],
+    "max_lines": 2,
+    "default_font_size": 52,
+    "line_height": 62
+  },
+  "safe_zone_required": false
+}

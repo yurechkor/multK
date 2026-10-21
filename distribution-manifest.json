@@ -1,0 +1,210 @@
+{
+  "release_date": "2026-10-21",
+  "repository": "yurechkor/multK",
+  "files": [
+    {
+      "path": ".agents/skills/motion-story-director/SKILL.md",
+      "sha256": "85e4b396d4e76f3c849a2b10ef8dc29ffecfa68f85d552a6c755f78059af7bcd"
+    },
+    {
+      "path": ".agents/skills/motion-yo/SKILL.md",
+      "sha256": "60c3789b251444d099280cf7365070e5c5c7f52fd8b513930289d160c16465f3"
+    },
+    {
+      "path": ".env.example",
+      "sha256": "be3002932439cd5dac56b66abfe45cd48b9268b13fbfdaad34b2da183adafa02"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "17af6552d136a6d2069def4df5824a4353134355da527be066d91484dd98a0e2"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "6dfd5b501a7f5bf1961d654f875ee03ffc688c2819b3097038fd1d6f0a2675d2"
+    },
+    {
+      "path": "AUTOPILOT.md",
+      "sha256": "f409e2d2ba81fb5413199b0962abcbddad13535a0e9c3baaa90b39764df66d27"
+    },
+    {
+      "path": "CHARACTER_STANDARD.md",
+      "sha256": "2919cedafcf17579f2f8d739c7ab672eb689df6c70c806063e7f6b1739cc9bed"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "ffbce3b0f35e2339af1a9ac63a95261e98ab74ea72ce164b3bc5c39485dfc93e"
+    },
+    {
+      "path": "EDITORIAL_STANDARD.md",
+      "sha256": "257b0c480ad78690dbf01e0bebe4cf5e0a7881a1a67c1744d0a697d533393e3a"
+    },
+    {
+      "path": "LAYOUT_STANDARD.md",
+      "sha256": "a89dae8384dc852abba5df2f13eea7a4523bd5cb88374a8d0901e8e16d4d748c"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "8b8d9e416c6ee84ef5241eb9713a9b5478d876fe3793eb1929ea1b8b63fcbb96"
+    },
+    {
+      "path": "MOTION_DIRECTION.md",
+      "sha256": "ac416ad2bbd11b663105b89af852fa8051e0ce5a3dabc9c07842723f88acb5d5"
+    },
+    {
+      "path": "PROJECT.md",
+      "sha256": "47c2c1501b82d5135ec464c73dcbd082af58120e86a2239f817a8d017380436b"
+    },
+    {
+      "path": "QUALITY_STANDARD.md",
+      "sha256": "007b56c447499b6001706201e4bb599cfbfea071a28bc7cdab5a1229504b1565"
+    },
+    {
+      "path": "README.md",
+      "sha256": "3730fad9ee7b566f686f4051e929fc02ff60059a5a938ecfec57791772f0e469"
+    },
+    {
+      "path": "START_HERE.md",
+      "sha256": "ae8006340debfcfd9a6d9fc56e3dd00568ae475dffb941f17c9738bd7243302a"
+    },
+    {
+      "path": "STYLE_BRIEF_TEMPLATE.md",
+      "sha256": "c1ff313989dc6f0a202c490731ff0bbef13b98a9c14d76368f0233d51114c6fa"
+    },
+    {
+      "path": "VISUAL_DEVELOPMENT.md",
+      "sha256": "5de12cb31d450fa6011474b560960d17945a9f943000573e65972346166462ba"
+    },
+    {
+      "path": "docs/LESSONS.md",
+      "sha256": "f034197dab16f465b9adfcd044a8f934f532d3e46ba5be6b6f683086ecde07d6"
+    },
+    {
+      "path": "docs/PORTABILITY.md",
+      "sha256": "20510cdfc89a88f4ce47c423deb352190e407e1adcd175fe41b2cd152d0fe143"
+    },
+    {
+      "path": "docs/RELEASE_CHECK.md",
+      "sha256": "30786ff8ac25e1bfe5ebb7b47517e15884ee3b1b9cd7df05c7ff8d3151e7c896"
+    },
+    {
+      "path": "docs/SETUP.md",
+      "sha256": "8349f41e11cf1251d602b45f809b20d17bf30d2c9230cd77a4686b6ebc82e3a5"
+    },
+    {
+      "path": "episodes/README.md",
+      "sha256": "355c24e35cb5b67c3f562038a70f3631fdf105f8d9e0ca16809ad358d6f058b2"
+    },
+    {
+      "path": "examples/README.md",
+      "sha256": "a2060af600f4e5d69495b29d7ae2562c10cfe8d4b64a1bcb0fe00f7b3fe37ff0"
+    },
+    {
+      "path": "examples/review.json",
+      "sha256": "2492ed0bc02fc39a1935de2a2316713855be457fecbbe791573667822425e8c0"
+    },
+    {
+      "path": "examples/tts-request.json",
+      "sha256": "be77b262bd115e9c6496a8ef3ed8bc0e9926a36fb62c5735108825411a813dc7"
+    },
+    {
+      "path": "production/defaults.json",
+      "sha256": "b44f531a961eb1721425e727f7028e42ec0a43d8882db3610a5f4b29f9986686"
+    },
+    {
+      "path": "production/layout-1080x1920.json",
+      "sha256": "02141c8d64c0ff80053c4671182d31e5e34785c61dd100202f465733357282f7"
+    },
+    {
+      "path": "production/topic-history.json.example",
+      "sha256": "7cb6b08eea549f4fccec775c2c30779970e749f10e626ee00b60c282b54b1ac1"
+    },
+    {
+      "path": "templates/remotion/README.md",
+      "sha256": "509491aa252da1f5a3272c2c4ae03ef6069226fecbdfb414f5c2f6b29cad4fa3"
+    },
+    {
+      "path": "templates/remotion/compile-timeline.py",
+      "sha256": "7413f3582f5e5f64028cc4e8b4bdc0c3b5922ba3bbcea25ba7ec274a61ca5f75"
+    },
+    {
+      "path": "templates/remotion/package-lock.json",
+      "sha256": "4b353a5510f9dbdec0c5405981877760355fe7f3c8b3c9ea987e3fc48d685bc7"
+    },
+    {
+      "path": "templates/remotion/package.json",
+      "sha256": "576078538e3dee5b04aae85d1d30a3699d5a5a28f3f31172979c05544c02d400"
+    },
+    {
+      "path": "templates/remotion/remotion.config.ts",
+      "sha256": "84b8c433be6e7e0a79cb1c310be9946b3e6df9b74163576da4eb3a1c567bf980"
+    },
+    {
+      "path": "templates/remotion/src/Scene.tsx",
+      "sha256": "409fbc19112459f63ff1bd5eccd848cc16a6a78762326d2909bebaacb1cc745b"
+    },
+    {
+      "path": "templates/remotion/src/captions.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "templates/remotion/src/index.tsx",
+      "sha256": "a8f22fae04514696c208ba9f9e5a985d258f23dbdcfad16aed8964e2f43eeb83"
+    },
+    {
+      "path": "templates/remotion/src/scene-clock.cjs",
+      "sha256": "feb3e5c344ef7b19a45008759b6ffd1a1fc7dcf4b1364669bd63dcd5eded5251"
+    },
+    {
+      "path": "templates/remotion/src/timeline.compiled.json",
+      "sha256": "d898fd41e501e30298fcabf8c871acb2a8ffe1ed98513c5f0a6448ee20f62758"
+    },
+    {
+      "path": "templates/remotion/timeline.json",
+      "sha256": "159e8d95245ed95a764b712fd6b71ad3af2ccbf6bb21404d41cbd5ae095a3dc5"
+    },
+    {
+      "path": "templates/remotion/tsconfig.json",
+      "sha256": "9469450913ec5b730f53d6daba14579f963dbc1c222a71d5215a2539a23749b9"
+    },
+    {
+      "path": "tools/new_project.py",
+      "sha256": "25812c8c7a965cc69341725b3abfbd4fa605c9fdadebf6e7ab1cd2f3874f5d71"
+    },
+    {
+      "path": "tools/production/README.md",
+      "sha256": "7d87c0a9d599a456d225077d6debd454ede2c90e42926f441a5f7a9883d3fd16"
+    },
+    {
+      "path": "tools/production/analytics.example.json",
+      "sha256": "c4aa2ed533a25c6a7779180d3336052148166e9d21c0c834115cc56383956302"
+    },
+    {
+      "path": "tools/production/generations.py",
+      "sha256": "bc0a5a4495ce4be892df086261b59c0c7f07ae0b364e15936a8404e1247c9c86"
+    },
+    {
+      "path": "tools/production/scene-clock.cjs",
+      "sha256": "feb3e5c344ef7b19a45008759b6ffd1a1fc7dcf4b1364669bd63dcd5eded5251"
+    },
+    {
+      "path": "tools/production/test_yo.py",
+      "sha256": "71510484440aaf35dd5444875143c5000df47e74f1ff404874f1f9a5f75d9802"
+    },
+    {
+      "path": "tools/production/timeline.py",
+      "sha256": "f27a0b88ca00b6cf4ab27bcfab24f296ed1e9ef6fc995a82919669ad4a0da821"
+    },
+    {
+      "path": "tools/production/yo.py",
+      "sha256": "d4fa47a7f1d401dfb64f2b9293f5901f5bf5eb2f0e8a59aa418535cdfe7508af"
+    },
+    {
+      "path": "tools/setup.py",
+      "sha256": "809011a81f23748a80de8dcfc291f014ca6ab0e27cad3eeec0dddc961003a95a"
+    },
+    {
+      "path": "tools/test_portability.py",
+      "sha256": "f5c057fc36dacfccd5904157aafd306fb6ade5cee13c621675d3e55406f4c0de"
+    }
+  ]
+}

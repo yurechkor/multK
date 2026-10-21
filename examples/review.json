@@ -1,0 +1,12 @@
+{
+  "artifact_hashes": {},
+  "render_key": "REPLACE_AFTER_RENDER",
+  "checks": {
+    "facts": {"status": "not_verified", "evidence": ""},
+    "opening": {"status": "not_verified", "evidence": ""},
+    "motion_full": {"status": "not_verified", "evidence": ""},
+    "text_boundaries": {"status": "not_verified", "evidence": ""},
+    "flicker": {"status": "not_verified", "evidence": ""},
+    "audio": {"status": "not_verified", "evidence": ""}
+  }
+}

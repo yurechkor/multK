@@ -1,0 +1,15 @@
+{
+  "duration_seconds": 60,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "timezone": "Asia/Ho_Chi_Minh",
+  "voice_id": "3EuKHIEZbSzrHGNmdYsx",
+  "voice_name": "Nikolay — Confident, Clear and Engaging",
+  "tts_model": "eleven_multilingual_v2",
+  "max_full_tts_takes_before_replan": 2,
+  "max_targeted_repairs_before_replan": 2,
+  "policy": "These are working defaults, not a fixed monetary budget; explicit user duration/deadline/limits override them. Replan means change the failing method, not skip quality checks.",
+  "genre": "explainer",
+  "direction": null
+}

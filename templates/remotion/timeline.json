@@ -1,0 +1,1 @@
+{"fps":30,"total_frames":90,"shots":[{"id":"contact-test","frames":90}],"events":[{"id":"contact","shot":"contact-test","offset_frames":30,"roles":["action","foley","background"]}]}
