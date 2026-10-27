@@ -11,5 +11,14 @@
   "max_targeted_repairs_before_replan": 2,
   "policy": "These are working defaults, not a fixed monetary budget; explicit user duration/deadline/limits override them. Replan means change the failing method, not skip quality checks.",
   "genre": "explainer",
-  "direction": null
+  "direction": null,
+  "voice_settings": {
+    "stability": 0.28,
+    "similarity_boost": 0.8,
+    "style": 0.45,
+    "use_speaker_boost": true,
+    "speed": 1
+  },
+  "voice_settings_scope": "Starting settings for the energetic graphical series; adapt expression to genre without silently replacing the required voice/model.",
+  "quality_reference": "docs/motion-series-standard-2026-10-27.md"
 }

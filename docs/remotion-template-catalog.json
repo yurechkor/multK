@@ -1,0 +1,194 @@
+{
+  "checked_on": "2026-10-27",
+  "scope": "Portable source-research catalog. Local adaptations and media are not included; no candidate has artistic production approval in this distribution.",
+  "workflow": "remotion-template-workflow.md",
+  "rendercomp_commit": "f648980e528defb7594e24c6447055f0540f340b",
+  "license_proof": "https://github.com/RenderComp/free-remotion-templates/blob/f648980e528defb7594e24c6447055f0540f340b/LICENSE",
+  "selection_rule": "Select up to three candidates for a concrete story action; inspect source and motion separately.",
+  "candidates": [
+    {
+      "id": "official-number-counter",
+      "name": "Number Counter",
+      "source": "https://www.remotion.dev/elements",
+      "role": "Числовое изменение с читаемым итогом",
+      "source_code_reviewed": false,
+      "motion_preview_reviewed": false,
+      "adapted_for_project": false,
+      "production_approved": false,
+      "family": "official-elements",
+      "license_status": "check-component-terms-on-import",
+      "adaptation": [
+        "Русские единицы и разделители",
+        "Точное итоговое значение, пауза на чтение",
+        "Один смысловой счётчик в сцене"
+      ]
+    },
+    {
+      "id": "official-line-chart",
+      "name": "Line Chart",
+      "source": "https://www.remotion.dev/elements",
+      "role": "Развитие показателя во времени",
+      "source_code_reviewed": false,
+      "motion_preview_reviewed": false,
+      "adapted_for_project": false,
+      "production_approved": false,
+      "family": "official-elements",
+      "license_status": "check-component-terms-on-import",
+      "adaptation": [
+        "Достоверные оси и значения",
+        "Построение связано с репликой",
+        "Вертикальная геометрия и нижние субтитры"
+      ]
+    },
+    {
+      "id": "official-on-screen-messages",
+      "name": "On-Screen Messages",
+      "source": "https://www.remotion.dev/elements",
+      "role": "Последовательные реплики или передача информации",
+      "source_code_reviewed": false,
+      "motion_preview_reviewed": false,
+      "adapted_for_project": false,
+      "production_approved": false,
+      "family": "official-elements",
+      "license_status": "check-component-terms-on-import",
+      "adaptation": [
+        "Каждое сообщение меняет ситуацию",
+        "Не подменять сообщения субтитрами",
+        "Графическая стилистика текущего ролика"
+      ]
+    },
+    {
+      "id": "rendercomp-text-mask",
+      "name": "Text Mask Reveal",
+      "source": "https://github.com/RenderComp/free-remotion-templates/blob/f648980e528defb7594e24c6447055f0540f340b/src/components/text-mask-reveal/TextMaskReveal.tsx",
+      "role": "Раскрытие ключевого слова или тезиса",
+      "source_code_reviewed": true,
+      "motion_preview_reviewed": false,
+      "adapted_for_project": false,
+      "production_approved": false,
+      "family": "rendercomp-free",
+      "license_status": "MIT-verified",
+      "dependencies": [
+        "React",
+        "Remotion"
+      ],
+      "caveats": [
+        "Тайминги заданы константами кадров",
+        "Условие показа цветной маски требует проверки в движении",
+        "Проверить длину русских строк и роль текста"
+      ],
+      "adaptation": [
+        "Использовать для короткого тезиса",
+        "Дать выход в следующее смысловое действие"
+      ],
+      "preview_observation": "Public source preview played muted at 1x to ended; discrete states observed. Continuous motion-quality approval not established."
+    },
+    {
+      "id": "rendercomp-kpi",
+      "name": "KPI Counter",
+      "source": "https://github.com/RenderComp/free-remotion-templates/blob/f648980e528defb7594e24c6447055f0540f340b/src/components/kpi-counter/KpiCounter.tsx",
+      "role": "Барабанные цифры с устойчивым форматом",
+      "source_code_reviewed": true,
+      "motion_preview_reviewed": false,
+      "adapted_for_project": false,
+      "production_approved": false,
+      "family": "rendercomp-free",
+      "license_status": "MIT-verified",
+      "dependencies": [
+        "React",
+        "Remotion"
+      ],
+      "caveats": [
+        "Англоязычные K/M и десятичная точка",
+        "Отрицательные значения требуют изменения логики",
+        "Карточная оболочка не обязательна для переноса"
+      ],
+      "adaptation": [
+        "Сохранить механику цифр",
+        "Назначить реальные единицы и читаемый итог",
+        "Проверить нужный диапазон значений"
+      ],
+      "preview_observation": "Public source preview played muted at 1x to ended; discrete states observed. Continuous motion-quality approval not established."
+    },
+    {
+      "id": "rendercomp-pixel",
+      "name": "Pixel Mosaic Transition",
+      "source": "https://github.com/RenderComp/free-remotion-templates/blob/f648980e528defb7594e24c6447055f0540f340b/src/components/pixel-mosaic-transition/PixelMosaicTransition.tsx",
+      "role": "Пиксельная смена состояния",
+      "source_code_reviewed": true,
+      "motion_preview_reviewed": false,
+      "adapted_for_project": false,
+      "production_approved": false,
+      "family": "rendercomp-free",
+      "license_status": "MIT-verified",
+      "dependencies": [
+        "React",
+        "Remotion",
+        "src/pixel-kit"
+      ],
+      "caveats": [
+        "Собственные процедурные сцены, нет входа для двух произвольных композиций",
+        "Внутреннее поле 480×270",
+        "До 129600 SVG-прямоугольников при cell=1 без учёта остальных эффектов",
+        "CRT и dithering нуждаются в отдельном решении по стилю"
+      ],
+      "adaptation": [
+        "Отдельная короткая проба под подходящую тему",
+        "Переделать источник сцены и вертикальную геометрию",
+        "Проверить нагрузку на крайних размерах ячейки"
+      ]
+    },
+    {
+      "id": "rendercomp-circle-wipe",
+      "name": "Circle Wipe",
+      "source": "https://github.com/RenderComp/free-remotion-templates/tree/f648980e528defb7594e24c6447055f0540f340b/src/components/transition-circle-wipe",
+      "role": "Переход через сохраняющийся круглый предмет",
+      "source_code_reviewed": true,
+      "motion_preview_reviewed": false,
+      "adapted_for_project": false,
+      "production_approved": false,
+      "family": "rendercomp-free",
+      "license_status": "MIT-verified",
+      "adaptation": [
+        "Центр совпадает с сюжетным предметом",
+        "Сохранять позицию и направление на стыке",
+        "Проверить код и настоящее движение перед импортом"
+      ],
+      "preview_observation": "Public source preview played muted at 1x to ended; discrete states observed. Continuous motion-quality approval not established."
+    },
+    {
+      "id": "rendercomp-split-screen",
+      "name": "Split Screen",
+      "source": "https://github.com/RenderComp/free-remotion-templates/tree/f648980e528defb7594e24c6447055f0540f340b/src/components/split-screen",
+      "role": "Сравнение двух состояний",
+      "source_code_reviewed": false,
+      "motion_preview_reviewed": false,
+      "adapted_for_project": false,
+      "production_approved": false,
+      "family": "rendercomp-free",
+      "license_status": "MIT-verified",
+      "adaptation": [
+        "Вертикальное сравнение с читаемыми объектами",
+        "Одинаковые условия сравнения",
+        "Один общий нижний слой субтитров"
+      ]
+    },
+    {
+      "id": "rendercomp-kinetic-word-stack",
+      "name": "Kinetic Word Stack",
+      "source": "https://github.com/RenderComp/free-remotion-templates/tree/f648980e528defb7594e24c6447055f0540f340b/src/components/kinetic-word-stack",
+      "role": "Короткая последовательность смысловых акцентов",
+      "source_code_reviewed": false,
+      "motion_preview_reviewed": false,
+      "adapted_for_project": false,
+      "production_approved": false,
+      "family": "rendercomp-free",
+      "license_status": "MIT-verified",
+      "adaptation": [
+        "Не выводить всю озвучку вторым крупным текстом",
+        "Связать каждое слово с видимым изменением",
+        "Настроить темп по принятому голосу"
+      ]
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "release_date": "2026-10-21",
+  "release_date": "2026-10-28",
   "repository": "yurechkor/multK",
   "files": [
     {
@@ -8,7 +8,7 @@
     },
     {
       "path": ".agents/skills/motion-yo/SKILL.md",
-      "sha256": "60c3789b251444d099280cf7365070e5c5c7f52fd8b513930289d160c16465f3"
+      "sha256": "0040ddce767f9cd70aa559b170bec17b0c9cec95a05c6ada2ed783800b4b67aa"
     },
     {
       "path": ".env.example",
@@ -20,11 +20,11 @@
     },
     {
       "path": "AGENTS.md",
-      "sha256": "6dfd5b501a7f5bf1961d654f875ee03ffc688c2819b3097038fd1d6f0a2675d2"
+      "sha256": "54362b4ec2be84524b230e1acbd2bfa2db91880c192d2b95cfae703c8986c7c2"
     },
     {
       "path": "AUTOPILOT.md",
-      "sha256": "f409e2d2ba81fb5413199b0962abcbddad13535a0e9c3baaa90b39764df66d27"
+      "sha256": "0954623802ec60d8ab43181e339783f762dc272daa01748447e19c6acc6fb3db"
     },
     {
       "path": "CHARACTER_STANDARD.md",
@@ -36,7 +36,7 @@
     },
     {
       "path": "EDITORIAL_STANDARD.md",
-      "sha256": "257b0c480ad78690dbf01e0bebe4cf5e0a7881a1a67c1744d0a697d533393e3a"
+      "sha256": "0824f7b8d2b4e4f256acc41334d990122a80381ce6bfba7c513925b2d75a398d"
     },
     {
       "path": "LAYOUT_STANDARD.md",
@@ -48,23 +48,23 @@
     },
     {
       "path": "MOTION_DIRECTION.md",
-      "sha256": "ac416ad2bbd11b663105b89af852fa8051e0ce5a3dabc9c07842723f88acb5d5"
+      "sha256": "378bd4b23dea95b42d9d2e748d216da8dbb4a66cbcb8606c8a2a4dd4eaec10a7"
     },
     {
       "path": "PROJECT.md",
-      "sha256": "47c2c1501b82d5135ec464c73dcbd082af58120e86a2239f817a8d017380436b"
+      "sha256": "645fbf0c68221bd56ac58880d9e935ac78110ed89df1af314aecabb82574fb59"
     },
     {
       "path": "QUALITY_STANDARD.md",
-      "sha256": "007b56c447499b6001706201e4bb599cfbfea071a28bc7cdab5a1229504b1565"
+      "sha256": "c7a5e049647ee222c3287a06396eb84eea9760c7fb0da2c93f9332c9fe52f6a4"
     },
     {
       "path": "README.md",
-      "sha256": "3730fad9ee7b566f686f4051e929fc02ff60059a5a938ecfec57791772f0e469"
+      "sha256": "35e7ae5e6ab12d95a1f76e175c2fcb2354b180f17264a86282f744e6076c74a8"
     },
     {
       "path": "START_HERE.md",
-      "sha256": "ae8006340debfcfd9a6d9fc56e3dd00568ae475dffb941f17c9738bd7243302a"
+      "sha256": "26b19bae88fd608bfed4001764be9d112a4714a003dba6bff0afbf3936a88dda"
     },
     {
       "path": "STYLE_BRIEF_TEMPLATE.md",
@@ -76,7 +76,7 @@
     },
     {
       "path": "docs/LESSONS.md",
-      "sha256": "f034197dab16f465b9adfcd044a8f934f532d3e46ba5be6b6f683086ecde07d6"
+      "sha256": "138385ab09c4de6557d044893ff260e17ff8c56b13648e107aee2a36a42cf6f7"
     },
     {
       "path": "docs/PORTABILITY.md",
@@ -84,11 +84,27 @@
     },
     {
       "path": "docs/RELEASE_CHECK.md",
-      "sha256": "30786ff8ac25e1bfe5ebb7b47517e15884ee3b1b9cd7df05c7ff8d3151e7c896"
+      "sha256": "d3030301c7407815f909ba988f37637ec118d570ec8b1b270950adec6286c1c2"
     },
     {
       "path": "docs/SETUP.md",
       "sha256": "8349f41e11cf1251d602b45f809b20d17bf30d2c9230cd77a4686b6ebc82e3a5"
+    },
+    {
+      "path": "docs/motion-production-playbook.md",
+      "sha256": "cdede4e523fae7d67cf1fde1752ef2dbb1819cefe6741f376e124f14ab286fc8"
+    },
+    {
+      "path": "docs/motion-series-standard-2026-10-27.md",
+      "sha256": "388c0e43d851b51269cc425dc915a67f4d934b3dbc376e64f933e0e1323bd9b0"
+    },
+    {
+      "path": "docs/remotion-template-catalog.json",
+      "sha256": "3883f2b3509c9bbc84452d268114dfd31dde13a3d0f512cf4cd1290dcb822b96"
+    },
+    {
+      "path": "docs/remotion-template-workflow.md",
+      "sha256": "38fff80441c0b90a8e8d39fa36d94d04d81c4b806a166c25ad625a3667c37920"
     },
     {
       "path": "episodes/README.md",
@@ -104,11 +120,11 @@
     },
     {
       "path": "examples/tts-request.json",
-      "sha256": "be77b262bd115e9c6496a8ef3ed8bc0e9926a36fb62c5735108825411a813dc7"
+      "sha256": "e5e6de8b985a8ca598b765b210cc2c015dcce21d1b29b5c4226b38c60353910d"
     },
     {
       "path": "production/defaults.json",
-      "sha256": "b44f531a961eb1721425e727f7028e42ec0a43d8882db3610a5f4b29f9986686"
+      "sha256": "b657d7fae9345b2cd6ff67714b9fa1fbbffa9a202d15ec231ab402717b57aed8"
     },
     {
       "path": "production/layout-1080x1920.json",
